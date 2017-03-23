@@ -19,10 +19,10 @@ class Controller:
     def SetTitle(self, title):
         self.view.setTitle(title)
 
-    def AddContainer(self, name):
-        self.model.addContainer(self.view.tree, name)
+    def AddContainee(self, name):
+        self.model.addContainee(self.view.tree, name)
         #self.model.containers[name].addCallback()
-        self.view.AddContainer(name)
+        self.view.AddContainee(name)
 
 #    def ContainerChanged(self, name):
 #        self.view.addContainer(name)

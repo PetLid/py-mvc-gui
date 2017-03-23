@@ -7,7 +7,6 @@ class Model:
         self.containers = {}
         self.name = Observable(name)
 
-
     def setName(self, name):
         self.name.set(name)
 

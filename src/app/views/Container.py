@@ -4,7 +4,11 @@ from tkinter import ttk
 class View(tk.Toplevel):
     def __init__(self, master, name):
 
+        self.tree = master
         master.insert('', 'end', text=name)
+
+    def AddContainee(self, name):
+        print('test')
 
     # def AddAttribute(self, name):
     #     container = self.tree.insert('', 'end', text=name)
