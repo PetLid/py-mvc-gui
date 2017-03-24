@@ -8,7 +8,7 @@ class Model:
         self.name = Observable(name)
 
     def addContainee(self, tree, value):
-        self.containers[name] = Observable(Containee(tree, name))
+        self.containees[name] = Observable(Controller(tree, name))
     #
     # def removeMoney(self, value):
     #     self.myMoney.set(self.myMoney.get() - value)
